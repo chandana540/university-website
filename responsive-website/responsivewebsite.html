@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>university website</title>
+   <link rel="stylesheet" href="responsivewebsite.css">
+   <!-- font-awsome icon link-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+</head>
+<body>
+    <!-- header and nav section starts-->
+    <header class="header">
+        <div class="container">
+            <!-- logo area-->
+            <div class="logo" >
+              <h1> University</h1> <img  onclick="shownav()" class="ham"src="images/hamburger.png">
+            </div>
+            <!-- nav area-->
+            <nav id="nav" class="nav">
+                <ul class="nav-parent">
+                    <li class="nav-link">Home</li> 
+                    <li class="nav-link">programs</li> 
+                    <li class="nav-link">about</li> 
+                    <li class="nav-link">contact</li>
+                   
+                </ul>
+            </nav>
+        </div>
+    </header>
+<!--banner section -->
+<section class="banner">
+    <div class="banner-details">
+        <div class="padd">
+        <h1 class="banner-title">Get Ready To Explore University</h1>
+        <button class="btn banner-btn">
+            Apply Now
+        </button>
+    </div>
+</section>
+<!-- programs section  -->
+<section class="programs">
+    <!-- undergraduate program-->
+    <div class="container programs-container">
+        <h1 class="section-title">Our Programs</h1>
+      <div class="program-parent">
+    <!--undergraduate program-->
+          <div class="program p1">
+              <div class="program-img">
+                  <img src="images/library.png"/>
+              </div>
+              <div class="program-detail">
+                  <div class="padd">
+                      <h4> Grow as a leader and advance in your profession with one of our graduate programs for women and men.</h4>
+                  
+                  <button class="btn un-btn program-detail-btn"style="display:none">know more</button>
+       ,              </div>
+              </div>
+          </div>
+           <!-- graduate program-->
+            <div class="program p2">
+                <div class="program-img ">
+                  <img src="images/certificate.jpg">
+              </div>
+        <div class="program-detail">
+            <div class="padd">
+                <h4> Explore a range of majors and minors with nearly limitless opportunities to launch your career.</h4>
+            
+                  <button class="btn gr-btn program-detail-btn"style="display:none">know more</button>
+          </div>
+        </div>
+      </div>
+      <!-- 3 program-->
+
+      <div class="program p3">
+      <div class="program-img ">
+        <img src="images/undergraduate-program.jpg">
+    </div>
+    <div class="program-detail">
+        <div class="padd">
+            <h4>Explore a range of majors and minors with nearly limitless opportunities to launch your career.</h4>
+        
+        <button class="btn do-btn program-detail-btn" style="display:none" >know more</button>
+      </div>
+    </div>
+    </div>
+</section>
+
+<!-- about us section-->
+<section class="about"> 
+    <div class="container about-container">
+        <h1 class="section-title">About Us</h1>
+        <div class="about-parent">
+            <div class="about-img">
+ <img src="images/banner2.jpg">
+            </div>
+            <div class="about-content">
+<div class="padd">
+   <h2> Mission</h2>
+   <p>
+This University prepares women for lives of personal and professional distinction and meaningful engagement with the world. Alverno extends this mission by offering graduate and adult programs to women and men. Inspired by its Catholic, Franciscan and liberal arts heritage, the College intentionally creates an inclusive community that engages students in active and collaborative learning and fosters academic excellence.
+<br></p>
+
+<h2 class="big">Vision</h2> 
+<p>
+To be the leading Catholic, Franciscan college inspiring passionate and principled leadership through transformational education.</p>
+<div>
+    <button class="btn about-btn" style="display:none">Explore More</button>
+</div>
+</div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- form section-->
+<section class="container contact-form"> 
+   
+    <div class="contactform-parent">
+       
+    <h1>Enroll in our online courses </h1>
+   <button id="p1" class="btn contact-btn"> <a class="anchor"<a href="forms/js-form1.html" target="blank" >Enquire Us</a></button>
+</div>
+</section>
+<!-- social media icons section-->
+<section class="social-media">
+    <div class="social-media-parent">
+        <div class="icon-bar">
+            <a href="#" class="facebook icon"><i class="fa fa-facebook"></i></a> 
+            <a href="#" class="twitter icon"><i class="fa fa-twitter"></i></a> 
+            <a href="#" class="google icon"><i class="fa fa-google"></i></a> 
+            <a href="#" class="linkedin icon"><i class="fa fa-linkedin"></i></a>
+            <a href="#" class="youtube icon"><i class="fa fa-youtube"></i></a> 
+             <a href="#" class="double-arrow"><i class="fas fa-angle-right"></i> </a>
+          </div>
+    </div>
+</section>
+
+
+<!-- footer section-->
+<footer class="footer">
+    <div class="container footer-container">
+    <h3 style="text-align:center">Footer</h3>
+    </div>
+</footer>
+
+
+<!-- javascript for hamburger menu-->
+
+
+
+
+
+<script src="responsivewebsite.js"></script>
+
+
+
+</body>
+</html>

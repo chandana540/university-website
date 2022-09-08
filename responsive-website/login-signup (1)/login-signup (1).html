@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+ 
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="login-signup.css">
+ 
+  <!-- jQuery cdn Link -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <title>login-signup form</title>
+</head>
+ 
+<body>
+  <div class="container">
+    <div class="form">
+      <!-- signup ,login -->
+      <div class="btn">
+        <button class="signUpBtn">SIGN UP</button>
+        <button class="loginBtn">LOG IN</button>
+      </div>
+      <!-- Success and Error messages  -->
+      <div id="successMessage">Congratulations! Registration completed.</div>
+      <div id="errorMessage">  Error: some data is missing  </div>
+
+         <!--form for signup button-->
+      <form class="signUp" >
+
+        <div class="form1">
+          <input type="text" id="userName" placeholder="User Name" >
+        </div>
+        
+     
+        <div class="form1">
+          <input type="email" placeholder="Email ID" id="email"name="email" required   >
+        </div>
+          <!--error for the email input -->
+          <div class="error" id="emailError"></div>
+           <div class="error" id="emailMissing"></div>
+        
+    
+        <div class="form1">
+          <input type="password" id="password" placeholder="Password" required>
+         </div>
+
+        <!--error mesaage the password input -->
+        <div class="error" id="passwordMissing"></div>
+
+        <div class="form1">
+          <input type="password" id="passwordConfirm" placeholder="Confirm Password" required autocomplete="off">
+         </div>
+
+        <!--error for the Confirm password input -->
+      <div class="error" id="passwordConfirmError"></div>
+
+        <div class="checkBox">
+         <input type="checkbox" name="checkbox" id="checkbox">
+          <span class="text">I agree with term & conditions</span>
+        </div>
+
+        <div class="form1">
+          <button type="button"id="signup-Button" class="btn2" >REGISTER</button>
+        </div>
+ 
+      </form>
+        
+      <!------ Login Form -------- -->
+ <!-- Success and Error messages  -->
+      <div id="loginsuccessMessage">Congratulations! Login completed.</div>
+      <div id="loginerrorMessage"> Error: some data is missing!  </div>
+     
+      <form class="login" >
+        <div class="form1">
+          <input type="email" id="login-email" placeholder="Email ID" name="email" onfocus="clear1()" required >
+          </div>
+         <!--error for  the email input -->
+         <div class="error" id="emailError1"></div>
+         <div class="error" id="emailMissing1"></div>
+
+        <div class="form1">
+          <input type="password" id="login-password" placeholder="Password" required >
+         
+        </div>
+          <!--error for  below the password input -->
+          <div class="error" id="passwordMissing1"></div>
+
+        <div class="checkBox">
+          <input type="checkbox" name="checkbox" id="checkbox">
+          <span class="text">Keep me signed in on this device</span>
+         </div>
+
+        <div class="form1">
+          <button type="button" id="login-button" class="btn2">REGISTER</button>
+        </div>
+ 
+      </form>
+ 
+    </div>
+  </div>
+ 
+  <script src="login-signup.js"></script>
+</body>
+ 
+</html>

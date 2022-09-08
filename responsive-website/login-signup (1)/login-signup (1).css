@@ -1,0 +1,149 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(banner.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: transparent;
+  }
+  /* align items center vertically and horizontally  */
+  .container{
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    height: 100vh;
+  }
+  .form{
+    width: 350px;
+    height: 450px;
+    background-color:#98002E;
+    box-shadow: 0 5px 30px black;
+  }
+  .btn button {
+    padding: 3px;
+    margin: 30px 0px 40px 30px;
+    border-style: none;
+    background-color: transparent;
+    color: beige;
+    font-size: 18px;
+    font-weight: 550;
+  }
+  .form1{
+    display: flex;
+    justify-content: center;
+  }
+  .form1 input{
+    border: none;
+    width: 80%;
+    border-bottom: 2px solid white;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+  }
+  input:focus {
+    outline: none ;
+    border-bottom: 2px solid rgb(170, 47, 47);
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+  }
+  ::placeholder {
+    color: white;
+  }
+  .checkBox{
+    display: flex;
+    justify-content: center;
+    margin: 16px;
+  }
+   
+  #checkbox{
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+  }
+  .text{
+    color: rgb(199, 197, 197);
+    font-size: 13px;
+  }
+  .btn2{
+    padding: 10px;
+    width: 150px;
+    border-radius: 20px;
+    background-color:#98002E;
+
+    border-radius: 20px solid #98002E;
+    color: white;
+    font-weight: 600;
+  }
+  .btn2:hover{
+
+    background-color:black;
+  }
+  .btn button:hover{
+
+    border-bottom: 2px solid #98002E;
+
+
+  }
+   
+  /* hide signup form */
+  .login{
+    display: none;
+  }
+   
+  /* Login form css*/
+  .login{
+    margin-top: 40px;
+  }
+  .login .checkBox{
+    margin-top: 30px  ;
+  }  
+
+  .error {       
+    color:yellow;
+    font-size: 12px ;
+    position: relative;
+    top: -10px;
+    left: 40px;
+  }
+  #successMessage {
+    color: green;
+    font-size: 15px ;
+    display:none;
+    position: relative;
+    top: -20px;
+    left: 40px; 
+  }
+   
+  #errorMessage {
+    color: red;
+    font-size: 15px ;
+    display:none;
+    position: relative;
+    top: -20px;
+    left: 40px; 
+  }
+  #loginsuccessMessage {
+    color: yellow;
+    font-size: 15px ;
+    display:none;
+    position: relative;
+    top: -1px;
+    left: 40px; 
+  }
+   
+  #loginerrorMessage {
+    color: black;
+    font-size: 15px ;
+    display:none;
+    position: relative;
+    top: -20px;
+    left: 40px; 
+  }
